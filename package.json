@@ -1,0 +1,33 @@
+{
+  "name": "node-asana-api",
+  "version": "1.0.0",
+  "description": "Typescript client for gitea-api",
+  "author": "openapi-typescript-codegen Contributors",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gr3q/node-asana-api"
+  },
+  "keywords": [
+    "fetch",
+    "typescript",
+    "openapi-client",
+    "asana",
+    "asana-api"
+  ],
+  "license": "Unlicense",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc --outDir dist/",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "openapi-typescript-codegen": "^0.23.0",
+    "typescript": "^4.0.3",
+    "@types/node-fetch": "^2.6.2"
+  }
+}
