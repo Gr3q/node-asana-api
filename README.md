@@ -32,3 +32,5 @@ cd ..
 npm --global -i openapi-typescript-codegen
 openapi -c fetch -o ./node-asana-api/ -i https://raw.githubusercontent.com/Asana/developer-docs/master/defs/asana_oas.yaml --name="AsanaApi" --useOptions
 ```
+
+Then manually fix duplicates in `services/ProjectStatusesService.ts` because of an [issue](https://github.com/ferdikoomen/openapi-typescript-codegen/issues/464) in codegen. I'm short on time to fix the generator atm.
