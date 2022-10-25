@@ -1,7 +1,7 @@
 {
   "name": "node-asana-api",
-  "version": "1.0.0",
-  "description": "Typescript client for gitea-api",
+  "version": "1.0.1",
+  "description": "Typescript client for Asana API",
   "author": "openapi-typescript-codegen Contributors",
   "repository": {
     "type": "git",
